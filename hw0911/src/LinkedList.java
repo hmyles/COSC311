@@ -6,7 +6,6 @@ public class LinkedList {
 
         for(int i = 0; i < arr.length; i++)
             insert(arr[i]);
-
     }
 
     private Node endOfList(){
@@ -20,7 +19,6 @@ public class LinkedList {
         }
 
         return pNode;
-
     }
 
     public void insert(double num){
@@ -33,10 +31,9 @@ public class LinkedList {
         Node node = endOfList();
 
         node.setNext(new Node(num));
-
     }
 
-    public boolean delete(double num){
+    public void delete(double num){
 
         Node currNode = head;
         Node pNode = null;
@@ -45,13 +42,14 @@ public class LinkedList {
 
             if(currNode.getData() == num){
 
-                if(currNode.next() == null){
-                    head = null;
-                    return true;
+                if(pNode == null) {
+
+                    head = head.next();
+                    return;
                 }
 
                 pNode.setNext(currNode.next());
-                return true;
+                return;
             }
 
             pNode = currNode;
@@ -59,7 +57,7 @@ public class LinkedList {
 
         }
 
-        return true;
+        return;
     }
 
     public Node getNode(){
@@ -86,4 +84,5 @@ public class LinkedList {
         s += "}";
         return s;
     }
+
 }

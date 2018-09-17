@@ -4,9 +4,7 @@ public class Node {
     private double data;
 
     public Node(double num){
-
         data = num;
-
     }
 
     public Node next(){
@@ -18,12 +16,10 @@ public class Node {
     }
 
     public void setNext(Node n){
-
         next = n;
     }
 
     public String toString(){
-
         return Double.toString(data);
     }
 
