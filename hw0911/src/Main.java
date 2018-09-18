@@ -13,7 +13,7 @@ public class Main {
     LinkedList ll1, ll2, ll3;
 
     public void createLinkedLists(){
-
+        
         input1 = new double[]{100.0};
         input2 = new double[]{10.0, 100.0, 10.0};
         input3 = new double[]{100.0, 10.0, 15.0, 20.0, 200.0, 30.0, 40.0, 300.0};
@@ -98,11 +98,17 @@ public class Main {
 
         Main test = new Main();
 
+        System.out.println("Starting lists");
         test.createLinkedLists();
         test.reportLinkedLists();
+        System.out.println();
 
+
+        System.out.println("Averages");
         test.reportAverages();
+        System.out.println();
 
+        System.out.println("Ending Lists");
         test.deleteBelowAverage();
         test.reportLinkedLists();
     }
