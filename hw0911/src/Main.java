@@ -13,7 +13,7 @@ public class Main {
     LinkedList ll1, ll2, ll3;
 
     public void createLinkedLists(){
-        
+
         input1 = new double[]{100.0};
         input2 = new double[]{10.0, 100.0, 10.0};
         input3 = new double[]{100.0, 10.0, 15.0, 20.0, 200.0, 30.0, 40.0, 300.0};

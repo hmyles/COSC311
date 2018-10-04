@@ -1,6 +1,7 @@
 #ingore everything
-./*
+*
 
 #except dir and src
-!./hw*/
-!/src/*
+!hw*/
+!hw*/src/
+!hw*/src/*
