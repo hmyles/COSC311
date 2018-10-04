@@ -6,11 +6,16 @@ public class CQueue {
 
     public CQueue(int size){
 
-        data = new int[size];
+        emptyQueue();
         max_size = size;
-        current_size = 0;
+    }
+
+    public void emptyQueue(){
+
+        data = new int[999999999];
         head = 0;
         tail = 0;
+        current_size = 0;
     }
 
     public boolean isFull(){
