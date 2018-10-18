@@ -1,12 +1,10 @@
 /*
 Myles
 hw1011
-
-
-
-
+URL: https://github.com/hmyles/COSC311/tree/master/hw1011/src
 
  */
+
 import java.util.Random;
 
 public class Main {
