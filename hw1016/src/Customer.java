@@ -11,6 +11,8 @@ public class Customer {
     private int id;
     private static int id_ptr = 0;
     private int wait_time;
+    private int original_wait_time;
+    private boolean switched;
     private Queue original_queue, current_queue;
     private CustomerStatus status;
 
@@ -20,6 +22,8 @@ public class Customer {
         id = id_ptr;
         id_ptr++;
         wait_time = 0;
+        original_wait_time = 0;
+        switched = false;
         original_queue = null;
         current_queue = null;
         status = CustomerStatus.waiting;
@@ -27,34 +31,37 @@ public class Customer {
     }
 
 
+    /* ************************************************* */
+    // Logic functions
+
+    public void incrementWaitTime(){
+
+        wait_time++;
+
+    }
+
+    // End Logic functions
+    /* ************************************************* */
 
     /* ************************************************* */
     // Getters and setters
 
-    public Queue getOriginalQueue() {
-        return original_queue;
-    }
+    public int getId(){ return id; }
 
-    public void setOriginalQueue(Queue original_queue) {
-        this.original_queue = original_queue;
-    }
+    public int getWaitTime(){ return wait_time; }
 
-    public Queue getCurrentQueue() {
-        return current_queue;
-    }
+    public Queue getOriginalQueue() { return original_queue; }
 
-    public void setCurrentQueue(Queue current_queue) {
-        this.current_queue = current_queue;
-    }
+    public void setOriginalQueue(Queue original_queue) { this.original_queue = original_queue; }
 
-    public int getId(){
+    public Queue getCurrentQueue() {  return current_queue; }
 
-        return id;
-
-    }
+    public void setCurrentQueue(Queue current_queue) { this.current_queue = current_queue; }
 
     // End getters and setters
     /* ************************************************* */
+
+
 
     @Override
     public String toString() {

@@ -8,8 +8,7 @@ URL: https://github.com/hmyles/COSC311/tree/master/hw1016/src
 
 
 public class Main {
-
-
+    
     public static void testQueue(){
 
         Queue queue = new Queue();
@@ -26,10 +25,7 @@ public class Main {
         queue.insert(new Customer());
         printQueue(queue);
 
-
-
     }
-
 
     public static void printQueue(Queue q){
 
@@ -41,25 +37,23 @@ public class Main {
 
     }
 
-
     public static void main(String args[]){
 
         /* Testing */
 
-        testQueue();
-
+        //testQueue();
 
 
         /* End Testing */
 
+        Queue q1 = new Queue();
+        Queue q2 = new Queue();
 
-        Driver logicDriver = new Driver();
+        Driver logicDriver = new Driver(q1, q2);
+        logicDriver.setSimulationNumber(15);
 
         logicDriver.simulation();
 
-
-
-
-
     }
+
 }

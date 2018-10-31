@@ -12,8 +12,6 @@ public class QueueNode {
     private QueueNode next_node;
     private Customer customer;
 
-
-
     public QueueNode(QueueNode node, Customer customer){
 
         setNextNode(node);
@@ -27,18 +25,26 @@ public class QueueNode {
 
     }
 
-    public void setNextNode(QueueNode node){
+    /* ************************************************* */
+    // Logic functions
 
-        next_node = node;
+    // End Logic functions
+    /* ************************************************* */
 
-    }
+    /* ************************************************* */
+    // Getters and setters
 
-    public void setCustomer(Customer customer){
+    public void setNextNode(QueueNode node){  next_node = node; }
 
-        this.customer = customer;
+    public Customer getCustomer(){ return customer; }
 
-    }
 
+    public void setCustomer(Customer customer){ this.customer = customer; }
+
+    // End getters and setters
+    /* ************************************************* */
+
+    @Override
     public String toString(){
 
         return customer.toString();
