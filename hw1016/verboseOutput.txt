@@ -1,0 +1,3134 @@
+Simulation starting: doing 100 ticks.
+================================================================================
+		-------------------------SimulationTick-1------------------------
+				arrivals(1, 0)
+				0 has switched
+				Server2 starting service: 0
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-1---------------------
+		-------------------------SimulationTick-2------------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-2---------------------
+		-------------------------SimulationTick-3------------------------
+				Server2 ending service: 0
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 0              
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: 0
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 0)
+				1 has switched
+				Server2 starting service: 1
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-3---------------------
+		-------------------------SimulationTick-4------------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-4---------------------
+		-------------------------SimulationTick-5------------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-5---------------------
+		-------------------------SimulationTick-6------------------------
+				Server2 ending service: 1
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 1              
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: 0
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 1)
+				Server2 starting service: 2
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-6---------------------
+		-------------------------SimulationTick-7------------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-7---------------------
+		-------------------------SimulationTick-8------------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-8---------------------
+		-------------------------SimulationTick-9------------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-9---------------------
+		-------------------------SimulationTick-10-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-10--------------------
+		-------------------------SimulationTick-11-----------------------
+				Server2 ending service: 2
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 2              
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: idle
+		-------------------------EndSimulationTick-11--------------------
+		-------------------------SimulationTick-12-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: idle
+		-------------------------EndSimulationTick-12--------------------
+		-------------------------SimulationTick-13-----------------------
+				arrivals(0, 1)
+				Server2 starting service: 3
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-13--------------------
+		-------------------------SimulationTick-14-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 4              
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-14--------------------
+		-------------------------SimulationTick-15-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 4              
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-15--------------------
+		-------------------------SimulationTick-16-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 4              
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-16--------------------
+		-------------------------SimulationTick-17-----------------------
+				Server2 ending service: 3
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 3              
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 4
+						
+								
+								Server1
+								status: waiting
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-17--------------------
+		-------------------------SimulationTick-18-----------------------
+				arrivals(1, 0)
+				Server1 starting service: 6
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-18--------------------
+		-------------------------SimulationTick-19-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-19--------------------
+		-------------------------SimulationTick-20-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-20--------------------
+		-------------------------SimulationTick-21-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-21--------------------
+		-------------------------SimulationTick-22-----------------------
+				arrivals(1, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 7              
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-22--------------------
+		-------------------------SimulationTick-23-----------------------
+				Server2 ending service: 4
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 4              
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 5
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 7              
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-23--------------------
+		-------------------------SimulationTick-24-----------------------
+				Server1 ending service: 6
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 6              
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 2)
+				Server1 starting service: 7
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 8              
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 9              
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-24--------------------
+		-------------------------SimulationTick-25-----------------------
+				Server2 ending service: 5
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 5              
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 8
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 9              
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-25--------------------
+		-------------------------SimulationTick-26-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 9              
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-26--------------------
+		-------------------------SimulationTick-27-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 9              
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 10             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-27--------------------
+		-------------------------SimulationTick-28-----------------------
+				Server1 ending service: 7
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 7              
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 9              
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 10             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-28--------------------
+		-------------------------SimulationTick-29-----------------------
+				Server2 ending service: 8
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 8              
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 0)
+				11 has switched
+				Server2 starting service: 9
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 10             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-29--------------------
+		-------------------------SimulationTick-30-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 10             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-30--------------------
+		-------------------------SimulationTick-31-----------------------
+				arrivals(1, 0)
+				12 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 10             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-31--------------------
+		-------------------------SimulationTick-32-----------------------
+				Server2 ending service: 9
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 9              
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 10
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-32--------------------
+		-------------------------SimulationTick-33-----------------------
+				arrivals(1, 0)
+				13 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-33--------------------
+		-------------------------SimulationTick-34-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-34--------------------
+		-------------------------SimulationTick-35-----------------------
+				Server2 ending service: 10
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 10             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 0)
+				Server1 starting service: 14
+				Server2 starting service: 11
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-35--------------------
+		-------------------------SimulationTick-36-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-36--------------------
+		-------------------------SimulationTick-37-----------------------
+				arrivals(2, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 15             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-37--------------------
+		-------------------------SimulationTick-38-----------------------
+				Server2 ending service: 11
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 11             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -6
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 12
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 15             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-38--------------------
+		-------------------------SimulationTick-39-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 15             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-39--------------------
+		-------------------------SimulationTick-40-----------------------
+				Server2 ending service: 12
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 12             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -7
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 13
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 15             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-40--------------------
+		-------------------------SimulationTick-41-----------------------
+				Server1 ending service: 14
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 14             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server1 starting service: 15
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-41--------------------
+		-------------------------SimulationTick-42-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-42--------------------
+		-------------------------SimulationTick-43-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-43--------------------
+		-------------------------SimulationTick-44-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-44--------------------
+		-------------------------SimulationTick-45-----------------------
+				Server2 ending service: 13
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 13             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -7
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: idle
+		-------------------------EndSimulationTick-45--------------------
+		-------------------------SimulationTick-46-----------------------
+				Server1 ending service: 15
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 15             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 2)
+				Server1 starting service: 16
+				Server2 starting service: 18
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 19             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-46--------------------
+		-------------------------SimulationTick-47-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 19             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-47--------------------
+		-------------------------SimulationTick-48-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 19             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-48--------------------
+		-------------------------SimulationTick-49-----------------------
+				Server2 ending service: 18
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 18             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 1)
+				Server2 starting service: 19
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 20             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-49--------------------
+		-------------------------SimulationTick-50-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 20             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-50--------------------
+		-------------------------SimulationTick-51-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 20             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-51--------------------
+		-------------------------SimulationTick-52-----------------------
+				Server1 ending service: 16
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 16             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server1 starting service: 17
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 20             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-52--------------------
+		-------------------------SimulationTick-53-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 20             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-53--------------------
+		-------------------------SimulationTick-54-----------------------
+				Server2 ending service: 19
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 19             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 20
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-54--------------------
+		-------------------------SimulationTick-55-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-55--------------------
+		-------------------------SimulationTick-56-----------------------
+				Server2 ending service: 20
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 20             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 0)
+				21 has switched
+				Server2 starting service: 21
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-56--------------------
+		-------------------------SimulationTick-57-----------------------
+				Server1 ending service: 17
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 17             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-57--------------------
+		-------------------------SimulationTick-58-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+		-------------------------EndSimulationTick-58--------------------
+		-------------------------SimulationTick-59-----------------------
+				arrivals(0, 2)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 22             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 23             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-59--------------------
+		-------------------------SimulationTick-60-----------------------
+				arrivals(1, 0)
+				Server1 starting service: 24
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 22             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 23             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-60--------------------
+		-------------------------SimulationTick-61-----------------------
+				Server2 ending service: 21
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 21             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: 0
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 1)
+				Server2 starting service: 22
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 23             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-61--------------------
+		-------------------------SimulationTick-62-----------------------
+				arrivals(1, 0)
+				26 has switched
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 23             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-62--------------------
+		-------------------------SimulationTick-63-----------------------
+				arrivals(2, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 27             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 28             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 23             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-63--------------------
+		-------------------------SimulationTick-64-----------------------
+				Server1 ending service: 24
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 24             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				Server2 ending service: 22
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 22             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server1 starting service: 27
+				Server2 starting service: 23
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 28             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-64--------------------
+		-------------------------SimulationTick-65-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 28             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-65--------------------
+		-------------------------SimulationTick-66-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 28             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-66--------------------
+		-------------------------SimulationTick-67-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 28             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-67--------------------
+		-------------------------SimulationTick-68-----------------------
+				Server1 ending service: 27
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 27             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 0)
+				29 has switched
+				Server1 starting service: 28
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-68--------------------
+		-------------------------SimulationTick-69-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-69--------------------
+		-------------------------SimulationTick-70-----------------------
+				Server2 ending service: 23
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 23             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 25
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-70--------------------
+		-------------------------SimulationTick-71-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-71--------------------
+		-------------------------SimulationTick-72-----------------------
+				Server2 ending service: 25
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 25             
+														      wait_time: 9              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 1)
+				Server2 starting service: 26
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-72--------------------
+		-------------------------SimulationTick-73-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-73--------------------
+		-------------------------SimulationTick-74-----------------------
+				Server1 ending service: 28
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 28             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-74--------------------
+		-------------------------SimulationTick-75-----------------------
+				arrivals(1, 0)
+				32 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-75--------------------
+		-------------------------SimulationTick-76-----------------------
+				Server2 ending service: 26
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 26             
+														      wait_time: 10             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -10
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 29
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-76--------------------
+		-------------------------SimulationTick-77-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-77--------------------
+		-------------------------SimulationTick-78-----------------------
+				Server2 ending service: 29
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 29             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -8
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 30
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-78--------------------
+		-------------------------SimulationTick-79-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-79--------------------
+		-------------------------SimulationTick-80-----------------------
+				arrivals(1, 0)
+				34 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-80--------------------
+		-------------------------SimulationTick-81-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-81--------------------
+		-------------------------SimulationTick-82-----------------------
+				arrivals(1, 0)
+				36 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 9              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-82--------------------
+		-------------------------SimulationTick-83-----------------------
+				arrivals(1, 0)
+				37 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 10             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-83--------------------
+		-------------------------SimulationTick-84-----------------------
+				Server2 ending service: 30
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 30             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 31
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-84--------------------
+		-------------------------SimulationTick-85-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 10             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-85--------------------
+		-------------------------SimulationTick-86-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 11             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 9              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-86--------------------
+		-------------------------SimulationTick-87-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 12             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 10             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-87--------------------
+		-------------------------SimulationTick-88-----------------------
+				Server2 ending service: 31
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 31             
+														      wait_time: 11             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(1, 0)
+				Server1 starting service: 38
+				Server2 starting service: 32
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 11             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-88--------------------
+		-------------------------SimulationTick-89-----------------------
+				arrivals(0, 2)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 12             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-89--------------------
+		-------------------------SimulationTick-90-----------------------
+				arrivals(1, 0)
+				41 has switched
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 13             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 10             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 9              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-90--------------------
+		-------------------------SimulationTick-91-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 14             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 11             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 10             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-91--------------------
+		-------------------------SimulationTick-92-----------------------
+				arrivals(1, 0)
+				42 has switched
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 15             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 12             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 11             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 10             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-92--------------------
+		-------------------------SimulationTick-93-----------------------
+				Server2 ending service: 32
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 32             
+														      wait_time: 13             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -13
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 33
+						
+								
+								Server1
+								status: busy
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 13             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 12             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 11             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 10             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-93--------------------
+		-------------------------SimulationTick-94-----------------------
+				Server1 ending service: 38
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 38             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue1         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 14             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 13             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 12             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 11             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-94--------------------
+		-------------------------SimulationTick-95-----------------------
+				Server2 ending service: 33
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 33             
+														      wait_time: 16             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 1)
+				Server2 starting service: 34
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 14             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 13             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 12             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 6              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 3              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 43             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-95--------------------
+		-------------------------SimulationTick-96-----------------------
+				arrivals(0, 1)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 15             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 14             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 13             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 7              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 4              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 43             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 44             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-96--------------------
+		-------------------------SimulationTick-97-----------------------
+				Server2 ending service: 34
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 34             
+														      wait_time: 15             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																Wait time if hadn't switched: -15
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 1)
+				Server2 starting service: 35
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 15             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 14             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 8              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 5              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 43             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 44             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 45             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-97--------------------
+		-------------------------SimulationTick-98-----------------------
+				arrivals(1, 1)
+				46 has switched
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 16             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 15             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 9              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 9              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 6              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 43             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 44             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 45             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 46             
+														      wait_time: 0              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 47             
+														      wait_time: 0              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-98--------------------
+		-------------------------SimulationTick-99-----------------------
+				arrivals(0, 0)
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 36             
+														      wait_time: 17             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 16             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 10             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 10             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 9              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 7              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 43             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 44             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 45             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 46             
+														      wait_time: 1              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 47             
+														      wait_time: 1              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-99--------------------
+		-------------------------SimulationTick-100----------------------
+				Server2 ending service: 35
+																-------------------------CustomerExperience----------------------
+														-------------------------Customer--------------------------------
+														             id: 35             
+														      wait_time: 16             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+																-------------------------EndCustomerExperience-------------------
+				arrivals(0, 0)
+				Server2 starting service: 36
+						
+								
+								Server1
+								status: idle
+								
+								Server2
+								status: busy
+														-------------------------Customer--------------------------------
+														             id: 37             
+														      wait_time: 17             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 39             
+														      wait_time: 11             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 40             
+														      wait_time: 11             
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 41             
+														      wait_time: 10             
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 42             
+														      wait_time: 8              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 43             
+														      wait_time: 5              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 44             
+														      wait_time: 4              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 45             
+														      wait_time: 3              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 46             
+														      wait_time: 2              
+														 original_queue: Queue1         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+														-------------------------Customer--------------------------------
+														             id: 47             
+														      wait_time: 2              
+														 original_queue: Queue2         
+														  current_queue: Queue2         
+														-------------------------EndCustomer-----------------------------
+		-------------------------EndSimulationTick-100-------------------
+================================================================================
+Simulation ending

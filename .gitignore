@@ -3,6 +3,7 @@
 
 #except dir and src
 !hw*/
+!hw*/*.txt
 !hw*/src/
 !hw*/src/*
 !hw*/src/*/*
