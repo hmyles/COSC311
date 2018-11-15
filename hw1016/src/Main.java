@@ -1,59 +1,42 @@
+import controllers.Driver;
+import simulation_display.SimulationDisplayManager;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Random;
+
 /*
-Myles
-HW 1016
-URL: https://github.com/hmyles/COSC311/tree/master/hw1016/src
-
-
+ * Myles
+ * HW 1016
+ * URL: https://github.com/hmyles/COSC311/tree/master/hw1016/src
  */
 
-
 public class Main {
-    
-    public static void testQueue(){
 
-        Queue queue = new Queue();
-
-        queue.insert(new Customer());
-        queue.insert(new Customer());
-        queue.insert(new Customer());
-        queue.insert(new Customer());
-        printQueue(queue);
-
-        queue.delete();
-        queue.delete();
-        queue.insert(new Customer());
-        queue.insert(new Customer());
-        printQueue(queue);
-
-    }
-
-    public static void printQueue(Queue q){
-
-        System.out.println("Printing Queue:");
-        System.out.println("****************************");
-        q.printQueue();
-        System.out.println("****************************");
-
-
-    }
 
     public static void main(String args[]){
 
-        /* Testing */
+        PrintStream verbose = null, terse = null;
 
-        //testQueue();
+        try {
+            verbose = new PrintStream(new File("verboseOutput.txt"));
+            terse = new PrintStream(new File("terseOutput.txt"));
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
-        /* End Testing */
+        SimulationDisplayManager dm = new SimulationDisplayManager(System.out, terse, verbose);
+        Driver logicDriver = new Driver(dm);
 
-        Queue q1 = new Queue();
-        Queue q2 = new Queue();
+        logicDriver.simulate(100);
 
-        Driver logicDriver = new Driver(q1, q2);
-        logicDriver.setSimulationNumber(15);
-
-        logicDriver.simulation();
+        verbose.close();
+        terse.close();
 
     }
+
+
 
 }
