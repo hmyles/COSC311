@@ -26,18 +26,6 @@ public class GhostCustomer extends QueueCustomer {
 
     }
 
-
-    /* ************************************************* */
-    // Logic functions
-
-
-
-    // End Logic functions
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Getters and setters
-
     @Override
     protected void setId() { this.id = self.id; }
 
@@ -45,30 +33,11 @@ public class GhostCustomer extends QueueCustomer {
         return self;
     }
 
-    public void setSelf(Customer self) {
-        this.self = self;
-    }
-
-
-    // End getters and setters
-    /* ************************************************* */
-
-
-    /* ************************************************* */
-    // Print functions
-
     @Override
     public String toString() {
 
         return super.toString();
 
     }
-
-    // End Print functions
-    /* ************************************************* */
-
-
-
-
 
 }

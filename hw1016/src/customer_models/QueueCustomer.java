@@ -36,9 +36,6 @@ public abstract class QueueCustomer {
 
     }
 
-    /* ************************************************* */
-    // Logic functions
-
     public void updateStatus(CustomerStatus status){
 
         this.status = status;
@@ -50,12 +47,6 @@ public abstract class QueueCustomer {
         wait_time++;
 
     }
-
-    // End Logic functions
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Getters and setters
 
     protected abstract void setId();
 
@@ -69,41 +60,11 @@ public abstract class QueueCustomer {
 
     public void setQueue(CustomerQueue queue) { this.queue = queue; }
 
-
-    // End getters and setters
-    /* ************************************************* */
-
-
-    /* ************************************************* */
-    // Print functions
-
-    /* Terse message:
-    *  ---------------- Customer type (ghost or regular) ---------------------------
-    *  id: #
-    *  ---------------------------- End Customer Message ---------------------------------------
-    *
-    * Verbose message:
-    *  ---------------- Customer type (ghost or regular) ---------------------------
-    *              id: #
-    *       wait_time: #
-    *   current_queue: queue_name
-    *  original_queue: queue_name
-    *  ---------------------------- End Customer Message ---------------------------------------
-    *
-    *
-    *
-    *
-    *
-     */
-
     @Override
     public String toString() {
 
         return Integer.toString(id);
 
     }
-
-    // End Print functions
-    /* ************************************************* */
 
 }

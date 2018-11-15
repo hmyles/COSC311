@@ -25,13 +25,6 @@ public class Customer extends QueueCustomer {
         this.setId();
     }
 
-
-
-    /* ************************************************* */
-    // Logic functions
-    // End Logic functions
-    /* ************************************************* */
-
     @Override
     protected void setId() { this.id = id_counter++; }
 
@@ -43,24 +36,11 @@ public class Customer extends QueueCustomer {
         this.ghost = ghost;
     }
 
-    /* ************************************************* */
-    // Getters and setters
-    // End getters and setters
-    /* ************************************************* */
-
-
-    /* ************************************************* */
-    // Print functions
-
-
     @Override
     public String toString() {
 
        return super.toString();
 
     }
-
-    // End Print functions
-    /* ************************************************* */
 
 }

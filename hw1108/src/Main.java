@@ -1,13 +1,8 @@
-
-
-
-
 /*
  * Myles
  * HW 1108
  * URL: https://github.com/hmyles/COSC311/tree/master/hw1108/src
  */
-
 
 import java.util.Random;
 
@@ -41,11 +36,7 @@ public class Main {
 
             inputPool[rand] = 0;
 
-
         }
-
-
-
 
         return inputSet;
 
@@ -125,6 +116,10 @@ public class Main {
             printArray(hashTable);
 
         }
+
+
+        System.out.println("Result of operations: ");
+        printArray(hashTable);
 
     }
 

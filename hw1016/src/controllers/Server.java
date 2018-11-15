@@ -37,9 +37,6 @@ public class Server {
 
     }
 
-    /* ************************************************* */
-    // Logic functions
-
     public void simulationTick(){
 
         if(status == ServerStatus.waiting)
@@ -53,17 +50,11 @@ public class Server {
 
     }
 
-    // End Logic functions
-    /* ************************************************* */
     public void startService(Customer c, int ticks){
 
         customer = c;
         status = ServerStatus.busy;
         serviceTicks = ticks;
-
-//        c.setStatus(CustomerStatus.being_serviced);
-
-
 
     }
 
@@ -80,25 +71,12 @@ public class Server {
 
     }
 
-    /* ************************************************* */
-    // Getters and setters
-
     public String getName() { return name; }
-    public ServerStatus getStatus() { return status; }
 
-    public int getTick() { return tick; }
+    public ServerStatus getStatus() { return status; }
 
     public void setTick(int tick) { this.tick = tick; }
 
     public QueueCustomer getCustomer() { return customer; }
-
-    // End getters and setters
-    /* ************************************************* */
-
-
-    /* ************************************************* */
-    // Print functions
-    // End Print functions
-    /* ************************************************* */
 
 }

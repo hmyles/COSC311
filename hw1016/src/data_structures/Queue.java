@@ -19,10 +19,6 @@ public class Queue<T> {
 
     }
 
-
-    /* ************************************************* */
-    // Logic functions
-
     public boolean isEmpty(){ return size == 0; }
 
     public void insert(T data){
@@ -58,17 +54,6 @@ public class Queue<T> {
 
     }
 
-
-    // End Logic functions
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Getters and setters
-
     public int getSize(){ return size; }
-
-    // End getters and setters
-    /* ************************************************* */
-
 
 }

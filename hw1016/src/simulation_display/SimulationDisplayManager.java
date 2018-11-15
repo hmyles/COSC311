@@ -5,12 +5,17 @@ import controllers.Server;
 import customer_models.Customer;
 import customer_models.GhostCustomer;
 import customer_models.QueueCustomer;
-import data_structures.Queue;
 import data_structures_customer.CustomerQueue;
 import simulation_enums.PrintType;
 import simulation_enums.StreamType;
 
 import java.io.PrintStream;
+
+/*
+ * Myles
+ * HW 1016
+ * URL: https://github.com/hmyles/COSC311/tree/master/hw1016/src
+ */
 
 public class SimulationDisplayManager {
 
@@ -116,42 +121,11 @@ public class SimulationDisplayManager {
 
     }
 
-    /* Simulation start msg
-     * Simulation spacer
-     *
-     *      Simulation Tick # ---
-     *
-     *          Any arrivals
-     *          switches
-     *          Starting/ending services
-     *          queue sizes
-     *
-     *              server name
-     *              server status
-     *
-     *                 queue1                   // verbose
-     *                      Customers           // verbose
-     *
-     *                 queue2                   // verbose
-     *                      customers           // verbose
-     *
-     *      end simulation tick
-     *
-     * simulation spacer
-     * end simulation
-     *
-     */
-
-    /************ Simulation prints Helpers *************/
-
     private void printSimulationSpacer(){
 
         printToStreams(String.format("%80s", "").replace(' ', '='));
 
     }
-
-    /********** End Simulation prints Helpers ***********/
-    /************ Simulation prints *************/
 
     public void printSimulationStart(int ticks) {
 
@@ -247,11 +221,6 @@ public class SimulationDisplayManager {
         printToStreams("Simulation ending");
 
     }
-
-
-    /********** Queue prints ***********/
-    /********** Customer prints ***********/
-
 
     public void printTerseCustomerMessage(QueueCustomer c){
 

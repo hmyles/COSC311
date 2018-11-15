@@ -12,8 +12,6 @@ URL: https://github.com/hmyles/COSC311/tree/master/hw1016/src
 
 public class CustomerQueue extends Queue<QueueCustomer> {
 
-    /* Variables for naming of Queue */
-
     private static int queue_id_counter = 1;
     private String queue_name;
 
@@ -24,9 +22,6 @@ public class CustomerQueue extends Queue<QueueCustomer> {
         queue_id_counter++;
 
     }
-
-    /* ************************************************* */
-    // Logic functions
 
     public void insert(QueueCustomer c){
 
@@ -61,20 +56,6 @@ public class CustomerQueue extends Queue<QueueCustomer> {
         return (QueueCustomer) temp.getData();
 
     }
-
-    // End Logic functions
-    /* ************************************************* */
-
-
-    /* ************************************************* */
-    // Getters and setters
-    // End getters and setters
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Print functions
-    // End Print functions
-    /* ************************************************* */
 
     @Override
     public String toString(){

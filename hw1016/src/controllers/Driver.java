@@ -7,7 +7,6 @@ import simulation_enums.ServerStatus;
 import data_structures_customer.CustomerQueue;
 import data_structures_customer.SwitchableCustomerQueue;
 import customer_models.Customer;
-import data_structures.Queue;
 
 import java.util.Random;
 
@@ -47,10 +46,6 @@ public class Driver {
 
     }
 
-
-    /* ************************************************* */
-    // Logic functions
-    
     public void simulate(int ticks){
 
         out.printSimulationStart(ticks);
@@ -84,8 +79,6 @@ public class Driver {
         out.printSimulationMessage(this);
 
     }
-
-    /********************************************************************************************************/
 
     private void serverTick(){
 
@@ -181,8 +174,6 @@ public class Driver {
 
     }
 
-    /********************************************************************************************************/
-
     private void updateCustomerTimes(CustomerQueue q){
 
         int size = q.getSize();
@@ -228,9 +219,6 @@ public class Driver {
 
     }
 
-
-
-
     /*
     * Following function (getPoissonRandom()) is from:
     *
@@ -252,23 +240,10 @@ public class Driver {
         return k - 1;
     }
 
-    // End Logic functions
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Getters and setters
-
     public int getTicks() { return tick; }
 
     public Server[] getServers() { return new Server[]{server1, server2}; }
 
     public CustomerQueue[] getCustomerQueues(){ return new CustomerQueue[]{queue1, queue2}; }
 
-    // End getters and setters
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Print functions
-    // End Print functions
-    /* ************************************************* */
 }

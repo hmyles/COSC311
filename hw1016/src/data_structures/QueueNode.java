@@ -11,8 +11,6 @@ public class QueueNode<T> {
     private T data;
     private QueueNode<T> next_node;
 
-
-
     public QueueNode(T data){
 
         this.data = data;
@@ -20,24 +18,11 @@ public class QueueNode<T> {
 
     }
 
-    /* ************************************************* */
-    // Logic functions
-    // End Logic functions
-    /* ************************************************* */
-
-    /* ************************************************* */
-    // Getters and setters
-
-    public void setData(T data){ this.data = data; }
-
     public T getData(){ return data; }
 
     public void setNextNode(QueueNode<T> next_node){ this.next_node = next_node; }
 
     public QueueNode<T> getNextNode(){ return next_node; }
-
-    // End getters and setters
-    /* ************************************************* */
 
     public String toString(){
 
