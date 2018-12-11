@@ -3,7 +3,7 @@
  *  COSC 341
  *  HW 1129
  *
- *  URL:
+ *  URL: https://github.com/hmyles/COSC311/tree/master/hw1129/src
  */
 
 public class Main {
