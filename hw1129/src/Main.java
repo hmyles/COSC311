@@ -20,9 +20,9 @@ public class Main {
             int result = checkPriorityQueue(num_elements[i], arrays[i]);
 
             if(result >= 0)
-                System.out.println("Test case #" + (i + 1) + " Invalid - fails at index " + result + ".");
+                System.out.println("Invalid - fails at index " + result + ".");
             else
-                System.out.println("Test case #" + (i + 1) + " Valid");
+                System.out.println("Valid");
 
         }
 
